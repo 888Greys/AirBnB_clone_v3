@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This module contains the principal application
-Its great
+Its great awesome
 """
 from models import storage
 from api.v1.views import app_views
@@ -30,7 +30,7 @@ def page_not_foun(error):
 
 app.config['SWAGGER'] = {
     'title': 'AirBnB clone - RESTful API',
-    'description': 'This is the api that was created for the hbnb restful api project,\
+    'description': 'This is the api that was created api project,\
     all the documentation will be shown below',
     'uiversion': 3}
 
